@@ -1,19 +1,13 @@
-module.exports = {
+export default {
     captchaSolver: {
-        enabled: false, // if captcha solving is enabled
-        service: '', // specify one. can be "2captcha" or "capmonster"
-        apiKey: '' // the API key for captcha access
+        enabled: true, // if captcha solving is enabled
+        service: '2captcha', // specify one. can be "2captcha" or "capmonster"
+        apiKey: '959c8127ee32c2ab282981ef7f429a4d' // the API key for captcha access
     },
 
-    invite: '', // the server invite code, example is 'HGfFFUQ7F7', can be vanity
+    invite: 'blacket', // the server invite code, example is 'HGfFFUQ7F7', can be vanity
 
     useProxies: false, // if to use proxies from proxies.txt to join
     
     joinDelay: 1000, // how fast to join in milliseconds (too fast = ratelimit!)
-    
-    boost: {
-        enabled: false, // if to boost any server
-        delay: 2000, // the delay to boost in millseconds (too fast = ratelimit!)
-        serverId: '' // the ID of the server to boost, the accounts must be in the server
-    }
 }

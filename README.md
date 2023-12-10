@@ -1,10 +1,7 @@
-# Discord Token Joiner (& booster)
+# Discord Token Joiner
 This is a simple tool to mass join Discord tokens into a server.<br>Original tool credit to **[@uutu](https://github.com/TahaGorme)**. It is now being maintained by me.<br><br>
 **Due to potential future Discord API changes, tokens may be "locked" after you use this tool. Use at your own risk.**<br>
-<br>
-## Support
-Support for **real questions** is provided in [this Discord server](https://discord.gg/AwzRJcN6By).<br>
-**In this server, there IS a such thing as a stupid question.**<br><br>
+<br><br>
 
 ## Installation
 1. Install [NodeJS](https://nodejs.org/en/download/current).
